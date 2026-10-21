@@ -1,16 +1,14 @@
 # Offline Era downloads
 
-Download files, checksums and release notes for the revamped Offline Era app.
+Public download files, checksums and release notes for the revamped Offline Era app.
 
-- [Current release](https://github.com/NagaDurgaSai/offline-era-releases/releases/latest)
-- [Website and platform availability](https://nagadurgasai.github.io/offline-era-web/)
+[Download version 1.0.0](https://github.com/NagaDurgaSai/offline-era-releases/releases/tag/v1.0.0)
 
-The revamped release line starts at 1.0.0. Android has a production-signed APK.
-macOS, Windows and iPhone/iPad public distribution remain in preparation.
+- Android: signed APK, Android 7.0+.
+- macOS: unnotarized DMG, macOS 12+, Apple Silicon and Intel. macOS may block first launch; [opening help](https://support.apple.com/en-us/102445).
+- Windows: unsigned EXE installer, Windows 10 2004+ / Windows 11 x64. Windows may show SmartScreen/unknown-publisher warnings. Physical device testing is pending; notifications may remain after reading.
+- iPhone/iPad: public distribution pending.
 
-Each APK includes a SHA-256 sidecar and a JSON manifest identifying its exact
-version, build, source identifier and signing-certificate fingerprint. Application
-source and signing credentials are maintained separately in private repositories.
+Each download has SHA-256 and JSON provenance sidecars. This repository contains no private app or website source, signing credentials or personal notes.
 
-The original Offline Era is a separate protocol generation; use the revamped app
-on both communicating devices. Check release notes for compatibility and known issues.
+[Website](https://nagadurgasai.github.io/offline-era-web/)
